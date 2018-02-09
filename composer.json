@@ -1,5 +1,5 @@
 {
-    "name": "wielski/kinopoisk",
+    "name": "mocheck/kp",
     "description": "Laravel wrapper for Kinopoisk API",
     "keywords": [
         "laravel",
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wielski\\Kinopoisk\\KinopoiskServiceProvider"
+                "Wielski\\Kinopoisk\\Providers\\KinopoiskServiceProvider"
             ],
             "aliases": {
                 "Kinopoisk": "Wielski\\Kinopoisk\\Facades\\Kinopoisk"
